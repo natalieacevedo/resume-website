@@ -1,0 +1,7 @@
+*as a user, I can get to know Natalie professionaly through her personal website.
+
+* as a user, I can know with precison the level of proficiency of Natalie on her listed skills.
+
+* as a user, I can see all of the projects done by Natalie through a link provided on her resume website
+
+*as a user, I can easily contact Natalie via her website
