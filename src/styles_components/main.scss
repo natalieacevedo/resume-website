@@ -15,5 +15,44 @@
         display: block;
 }
 
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+  
+  .bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px hsl(210, 100%, 80%);
+  }
+  .bio h1 {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+  }
 
+};
 
+.more-about {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+
+    h2{
+        margin-bottom: var(--bottom-margin);
+        text-align: center;
+    }
+
+    p {
+        line-height: var(--line-height);
+        padding: 0.4rem;
+        text-align:center;
+      }
+
+  }
