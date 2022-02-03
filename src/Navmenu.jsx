@@ -19,8 +19,10 @@ return (
       <Nav className="me-auto">
       <NavLink className="link" to='/' style={{ textDecoration: 'none' }}> Home</NavLink>
       <NavLink className="link" to='/skills' style={{ textDecoration: 'none' }}>Skills</NavLink>
-          <Nav.Link href="#link">Education</Nav.Link>
-          <Nav.Link href="#link">Experience</Nav.Link>
+           
+           <NavLink className="link" to='/education' style={{ textDecoration: 'none' }}>Education</NavLink>
+
+          <NavLink className="link" to='/experience' style={{ textDecoration: 'none' }}>Experience</NavLink>
 
           <NavLink className="link" to='/contact'style={{ textDecoration: 'none'}}>Contact</NavLink>
 
