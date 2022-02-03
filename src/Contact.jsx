@@ -101,15 +101,10 @@ return (
           Send a message
         </button>
       </div>
-<h2>No time for styling</h2>
+<h2>No time for styling but it sends data to the backend</h2>
     </form>
 
-    
-
   );
-
-
-
 
 };
 

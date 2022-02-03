@@ -5,6 +5,7 @@ import Home from './Home';
 import Skills from './Skills';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Contact from './Contact';
+import Projects from './Projects';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Route path="/" element={<Home/>}/>
     <Route path="/skills" element={<Skills/>}/>
     <Route path="/contact" element={<Contact/>}/>
+    <Route path= "/projects" element={<Projects/>}/>
      </Routes>
      </BrowserRouter>
     </div>

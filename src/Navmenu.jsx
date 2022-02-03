@@ -24,7 +24,7 @@ return (
 
           <NavLink className="link" to='/contact'style={{ textDecoration: 'none'}}>Contact</NavLink>
 
-          <Nav.Link href="#link">Projects</Nav.Link>
+           <NavLink className="link" to='/projects'style={{ textDecoration: 'none'}}> Projects</NavLink>
       </Nav>
     </Navbar.Collapse>
   </Container>
