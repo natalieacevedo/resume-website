@@ -17,9 +17,8 @@ return (
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">About</Nav.Link>
-         <Nav.Link href="#link">Skills</Nav.Link>
+      <NavLink className="link" to='/' style={{ textDecoration: 'none' }}> Home</NavLink>
+      <NavLink className="link" to='/skills' style={{ textDecoration: 'none' }}>Skills</NavLink>
           <Nav.Link href="#link">Education</Nav.Link>
           <Nav.Link href="#link">Experience</Nav.Link>
           <Nav.Link href="#link">Contact</Nav.Link>
