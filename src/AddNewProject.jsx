@@ -32,8 +32,8 @@ const [info, addInfo] = useState({
 if (submitted) {
     return (
       <>
-        <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We'll be in touch soon.</div>
+        <div className="text-2xl">Good job!</div>
+        <div className="text-md">The info about the project was saved.</div>
       </>
     );
   }
@@ -42,7 +42,7 @@ if (submitted) {
 
 return (
     <div>
-    <h5>Add a new project</h5>
+    <h5>Add a new project (As an admin)</h5>
 
 <form onSubmit={(e) => submit(e)}>
 
