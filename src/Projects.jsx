@@ -30,7 +30,11 @@ useEffect(getProjects, []);
 
 if(!listOfProjects || listOfProjects.length === 0){
     return (
+        <div>
         <h1>I am sorry there are not events saved, create some first!</h1>
+        <button className='listbutton'onClick={list}>Add a new Project</button>
+        {addProjects && <AddNewProject/>}
+        </div>
     )
 }else {
 

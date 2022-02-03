@@ -1,7 +1,16 @@
-import {Card, Button} from "react-bootstrap";
-
+import {Card} from "react-bootstrap";
+import ProjectSummary from './ProjectSummary';
+import React, { useState, useEffect} from "react";
 
 function DetailedProjects({info}){
+
+const[booleanPic,setBooleanPic]= useState(false);
+
+function setBoolean(){
+    setBooleanPic(!true);
+
+};
+
 
 console.log(info);
 
@@ -14,16 +23,7 @@ return (
     <Card style={{width: '20rem', margin: '0 auto'}} className="text-center">
     
     {info.map((el,i) => (
-        <>
-    <Card.Header>{el.name}</Card.Header>
-     <Card.Body>
-    <Card.Title> I made this project on: {el.date.slice(0,10)}</Card.Title>
-    <Card.Text>
-        this are the skills I used for this project: {el.skills}
-    </Card.Text>
-    <Button variant="primary">See this project's images and details</Button>
-  </Card.Body>
-    </>
+        <ProjectSummary project={el} />
     ))}
   
  
