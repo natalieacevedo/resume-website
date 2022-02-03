@@ -21,7 +21,9 @@ return (
       <NavLink className="link" to='/skills' style={{ textDecoration: 'none' }}>Skills</NavLink>
           <Nav.Link href="#link">Education</Nav.Link>
           <Nav.Link href="#link">Experience</Nav.Link>
-          <Nav.Link href="#link">Contact</Nav.Link>
+
+          <NavLink className="link" to='/contact'style={{ textDecoration: 'none'}}>Contact</NavLink>
+
           <Nav.Link href="#link">Projects</Nav.Link>
       </Nav>
     </Navbar.Collapse>
